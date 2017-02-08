@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+#content {
+	height: 700px;
+	width: auto;
+	margin: 0 50px;
+
+	box-sizing: border-box;
+	padding: 0px;
+	
+}
+
+header>div {
+
+	background-color: #023749;
+	height: 25px;
+}
+
+main {
+
+}
+
+#left {
+
+	background-color: #7F0D8D;
+	float: left;
+	width: 30%;
+	height: 600px;
+	margin: 10px 0px;
+
+}
+
+
+#right {
+
+	background-color: green;
+	float: right;
+	width: 69%;
+	height: 600px;
+	margin: 10px 0px; 
+}
+
+footer>div {
+
+	background-color: blue;
+	height: 25px;
+	margin-top: 620px;
+}

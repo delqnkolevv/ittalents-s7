@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+#content {
+	box-sizing: border-box;
+	margin: 0 35px;
+	height: auto;
+	
+}
+
+header>div {
+	height: 6em;
+	width: auto;
+	background-color: rgb(46,139,87);
+	
+}
+
+#main {
+	height: 40em;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	width : 100%;
+	box-sizing: border-box;
+	display:inline-block;
+}
+
+section {
+	height: 100%;
+	width : 20%;
+	background-color: rgb(199,21,133);
+	float: left;
+	display: inline-block;
+	margin-right : 1%;
+}
+
+aside {
+	height: 100%;
+	width : 79%;
+	background-color: rgb(124,252,0);
+	float: right;
+	display: inline-block;
+}
+
+footer {
+	height: 6em;
+	width: auto;
+	background-color: blue;
+}
+
+
