@@ -20,7 +20,7 @@
 
 
 #ballbox {
-	animation: spin;
-	animation-duration: 3s;
-	animation-iteration-count:3;
+	animation: spin 3s 1.5 linear;
+	animation-fill-mode:forwards;
+ 
 }

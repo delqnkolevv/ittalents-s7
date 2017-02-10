@@ -7,9 +7,9 @@
 </head>
 <body>
 	<div id="content">
-		<div id="ballbox">
+		<div id="ballbox" style= "animation: spin 3s <?php $spins=rand(10,40); $spins /= 10; echo $spins;?> linear; animation-fill-mode: forwards;">
 			<img id="ball" alt="ball" title="ball of roulette" width="20px" height="auto" src="assets/images/ball.png">
 		</div>
-	</div>	
+	</div>
 </body>
 </html>
