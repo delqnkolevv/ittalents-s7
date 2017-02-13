@@ -20,7 +20,5 @@
 
 
 #ballbox {
-	animation: spin 3s 1.5 linear;
-	animation-fill-mode:forwards;
  
 }

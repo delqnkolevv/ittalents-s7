@@ -1,0 +1,88 @@
+body {
+	padding: 1em;
+}
+#content {
+	width: 1170px;
+	margin: 0 auto;
+	font-family: arial;
+	box-sizing: border-box;
+}
+header {
+	
+}
+header > #header-section > nav > ul > li > a {
+	display:inline-block;
+	width: 100%;
+	text-decoration: none;
+	color: #8d8d8d;
+}
+header > #header-section > nav > ul > li > a:hover {
+		color:white;
+	}
+	
+header > #header-section {
+	display:inline-block;
+	height: 50%;
+	width: 100%;
+	padding : 3em 2em;
+	box-sizing: border-box;
+	background-color:black;
+}
+header > section > h1 {
+	float: left;
+	width: 50%;
+}
+header > section > h1 > a {
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 2em;
+	color:white;
+}
+header > section > h1 > a:hover {}
+
+header > section > nav {
+	float: right;
+	width: 50%;
+}
+header > section > nav > ul > li{
+	float: left;
+	width:16.6%;
+}
+
+
+header > #mobile-nav > ul > li {
+	height: 100%;
+	float: left;
+	margin: 0 auto;	
+	width: 16.6%;
+	text-align: center;
+}
+header > #mobile-nav > ul > li > a {
+	display:inline-block;
+	width: 100%;
+	height:100%;
+	text-decoration: none;
+	color : white;
+}
+header > #mobile-nav > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+header > #mobile-nav {
+	background-color:red;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+	height: 100px;	
+	margin-top: -3px;
+	padding-left: 140px;
+	padding-top:40px;
+	
+}
+header > #mobile-nav > ul {
+	display  : inline-block;
+	width: 80%;
+	height: 100%;
+	margin-left: 00px;
+	}
+	

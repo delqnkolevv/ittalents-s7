@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+main > section > #picture-place {
+	background-image: url("../images/exmachina.jpg");
+	background-size: 1170px 595px;
+	width: 1170px;
+	height:595px;
+	margin-top: -3px;
+	padding-top: 200px;
+	box-sizing: border-box;
+	}
+	
+main > section {
+	display:inline-block;
+}
+
+main > section > #picture-place > p > a {
+	display:inline-block;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 25%;
+	width: 200px;
+	height:80px;
+	color:#e2e2e2;
+	text-align: center;
+	padding-top: 30px;
+	
+	float:left;
+}
+main > section > #picture-place > p > a:hover {
+	background-color: #a4a4a4;
+	color: black;
+}
+
+main > section > #picture-place > p {
+	display:inline-block;
+	float:left;
+	margin-left: 385px;
+	margin-top: 
+	
+}
+
+
+main > section > div > div > h2 {
+	margin-left: 490px;
+	font-weight: bolder;
+	font-size: 2em;
+	color : white;
+	
+} 
+main > section > div > div > p {
+	margin-top: 30px;
+	margin-left : 325px;
+	color : #acacac;
+}
+
+main > section > div > p > a {
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+main > section > div >  #small-pictures > img {
+	float:left;
+	height: 100px;
+}
+
+main > section > div > #small-pictures {
+	display:inline-block;
+	padding-left: 462px;
+	height: 100px;
+	margin-top: 91px;
+}
+
+main > section > div >  #small-pictures > img:hover {
+		margin-top:-20px;
+		height: 120px;
+	}
+
+
+#search-menu {
+	border: 1px solid black;
+	display:inline-block;
+	box-sizing: border-box;
+	width:100%;
+	
+}
+
+#search-menu > form > article {
+	float:left;
+	font-size : 1.5em;
+}
+
+#search-menu > form {
+	height:163.33px;
+	padding-left: 250px;
+}
+input[type=checkbox] {
+  transform: scale(1.5);
+  
+}
+
+input[type=submit] {
+	
+}
